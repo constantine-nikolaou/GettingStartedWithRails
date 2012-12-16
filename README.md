@@ -36,7 +36,7 @@ It favors convention over configuration meaning that the framework uses certain 
 
 ## RVM (Ruby Version Manager)
 
-[RVM](http://rvm.io) is a command-line tool that help developers easily install, manage and work with multiple version of Ruby.
+[RVM](http://rvm.io) is a command-line tool that helps developers easily install, manage and work with multiple version of Ruby.
 
 Use RVM to install a version of Ruby to use while working on our sample application.
 
