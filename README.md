@@ -260,6 +260,6 @@ Feel free to drop me a line if you have any questions or need any sort of help (
 
 ## Resources
 
-	* [RubyOnRails Guides](http://guides.rubyonrails.org)
-	* [RailsCasts - Getting started with Rails](http://railscasts.com/episodes/310-getting-started-with-rails?view=asciicast)
-	* [Rails code on GitHub](http://github.com/rails/rails)
+	* ![RubyOnRails Guides](http://guides.rubyonrails.org)
+	* ![RailsCasts - Getting started with Rails](http://railscasts.com/episodes/310-getting-started-with-rails?view=asciicast)
+	* ![Rails code on GitHub](http://github.com/rails/rails)
