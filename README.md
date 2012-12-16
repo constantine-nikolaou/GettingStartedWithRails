@@ -235,7 +235,7 @@ Rails allows you to access objects and classes via a dedicated console. To acces
 
     $ rails console
     
-Once loaded, you can follow the commands displaying in the screenshot below, to create, find and destroy
+Once loaded, you can follow the commands displaying in the screenshot below, to create, find and destroy Post records
 
 ![Manipulating records via the console](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_console.png "Manipulating records via the console")
 	
