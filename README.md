@@ -44,20 +44,20 @@ Let's install RVM first.
 
 	1. Open your terminal console and type the following:
 	
-![Type the following to install RVM](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rvm_install_01.png "Type the following to install RVM")
+![Type the following to install RVM](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rvm_install_01.png "Type the following to install RVM")
 
 	2. When you hit __Enter__ button, curl will download the installation script and install RVM on your local system. Once done, you should see the following screen:
 
-![End of RVM installation](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rvm_install_02.png "End of RVM installation")
+![End of RVM installation](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rvm_install_02.png "End of RVM installation")
 
 	3. Type __rvm reload__ in the terminal window to make sure RVM is properly installed	
 	4. To install Ruby 1.9.3, type the following in your terminal. This should download Ruby onto your computer and install it.
 	
-![Installing Ruby 1.9.3](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rvm_install_04.png "Installing Ruby 1.9.3")
+![Installing Ruby 1.9.3](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rvm_install_04.png "Installing Ruby 1.9.3")
 
 	5. Once done, you should get the following output.
 
-![Ruby 1.9.3 successfully installed](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rvm_install_05.png "Ruby 1.9.3 successfully installed")
+![Ruby 1.9.3 successfully installed](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rvm_install_05.png "Ruby 1.9.3 successfully installed")
 
 	6. Congrats! You now have RVm and Ruby installed.
 	
@@ -82,7 +82,7 @@ After successfully installing you first Ruby gem via the command-line, let's try
 
     $ gem install rails --no-rodc --no-ri
     
-![Installing Rails](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_install.png "Installing Rails")
+![Installing Rails](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_install.png "Installing Rails")
 
 Notice that Rails consists of a collection of gems, you can read more about its componenents on [Rails' GitHub](http://github.com/rails/rails) repository
 
@@ -96,7 +96,7 @@ Let's install Bundler first and see how it works in action.
 
 	1. Type __gem install bundler__ in your terminal (follow the screenshot below)
 	
-![Installing Bundler](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/bundler_install.png "Installing Bundler")
+![Installing Bundler](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/bundler_install.png "Installing Bundler")
 
 ----------
 
@@ -108,7 +108,7 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 
 	1. Type __rails new blogger__, where 'blogger' is the name of your new application.
 
-![Generating a new Rails application](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/blogger_generate_01.png "Generating a new Rails application")
+![Generating a new Rails application](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/blogger_generate_01.png "Generating a new Rails application")
 
 	2. Go to your newly created application folder using the following:
 	    
@@ -116,7 +116,7 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 	    
 	3. Open your favorite text editor to browse files inside 'blogger' app. I will be using __text mate__
 	
-![Rails application directory structure](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_app_textmate.png "Rails application directory structure")
+![Rails application directory structure](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_app_textmate.png "Rails application directory structure")
 
 	4. A brief explanation of a Rails application directory structure [source](http://santhoshthepro.in/rails-directory-structure)
 	
@@ -155,7 +155,7 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 
 	gem 'therubyracer'
 
-![Adding gems to Gemfile](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_gemfile.png "Adding gems to Gemfile")
+![Adding gems to Gemfile](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_gemfile.png "Adding gems to Gemfile")
 
 	4. Run 'bundle install' to install the newly added gems
 	
@@ -169,7 +169,7 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 	    
 	  'home' is the name of the controller while index is the name of action method that will be displaying your default page.
 	    
-![Generating home controller](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_home_controller.png "Generating home controller")
+![Generating home controller](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_home_controller.png "Generating home controller")
 	
 	2. Open 'config/routes.rb' file. Notice that the line __get "home/index"__ was added by Rails when generating the new controller. Let's modify this line of code to reflect that we want __home#index__ to open directly as the default page.
 
@@ -177,13 +177,13 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 	
 	get "home/index"
 	
-![Rails routes default home](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_routes_01.png "Rails routes default home")
+![Rails routes default home](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_routes_01.png "Rails routes default home")
 
 	To the following:
 	
 	root :to => "home#index"
 	
-![Rails routes updated default home](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_routes_02.png "Rails routes updated default home")
+![Rails routes updated default home](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_routes_02.png "Rails routes updated default home")
 
 	3. Let's run our server. Type the following in your console from within the application directory.
 	    
@@ -191,7 +191,7 @@ Let's start by generating the applicatino skeleton via rails command-line tool. 
 	    
 	4. Open your favorite internet browser (Firefox, Safari) and type the following URL: http://localhost:30000 (3000 is the default port that Rails uses to serve your application locally. In production, you will be using something different, like Apache with Passenger for example)
 	
-![Blogger home page](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_browser_homepage.png "Blogger home page")
+![Blogger home page](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_browser_homepage.png "Blogger home page")
 
 	5. To stop the local server, press __control+C__ on your terminal window
 
@@ -203,13 +203,13 @@ We will use Rails generator to create a collection of files (Model/Controller/Vi
 	
     $ rails generate scaffold Post title:string content:text
     
-![Scaffolding Post](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_create_posts.png "Scaffolding Post")
+![Scaffolding Post](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_create_posts.png "Scaffolding Post")
 
 	2. Check the newly added migration under 'db' folder. Notice the datatype we specified in our previous one-liner command.
 	
 	Note: To learn more about migrations, visit [Rails Guide migrations page](http://guides.rubyonrails.org/migrations.html) 
 	
-![Post migration](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_posts_migration.png "Post migration")
+![Post migration](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_posts_migration.png "Post migration")
 
 	3. To run the DB migrations, we will use a __rake__ using the following command from your terminal.
 	
@@ -217,7 +217,7 @@ We will use Rails generator to create a collection of files (Model/Controller/Vi
 	
 	$ rake -T
 	
-![running Post migration](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_running_db_migrate_01.png "running Post migration")
+![running Post migration](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_running_db_migrate_01.png "running Post migration")
 
 	4. Let's start our Rails server again to view the newly created Post resources.
 	
@@ -225,7 +225,7 @@ We will use Rails generator to create a collection of files (Model/Controller/Vi
 	
 	5. Head back to your brower and navigate to http://localhost:3000/posts
 	
-![Posts browsing](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_browser_posts.png "Posts browsing")
+![Posts browsing](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_browser_posts.png "Posts browsing")
 
 	6. Click on 'New Post' to create new records using the fields we specified in our one-line command, and migrated via the rake command.
 
@@ -237,7 +237,7 @@ Rails allows you to access objects and classes via a dedicated console. To acces
     
 Once loaded, you can follow the commands displaying in the screenshot below, to create, find and destroy
 
-![Manipulating records via the console](http://raw.github.com/cnicolaou/GettingStartedWithRails/master/images/rails_console.png "Manipulating records via the console")
+![Manipulating records via the console](https://github.com/cnicolaou/GettingStartedWithRails/raw/master/images/rails_console.png "Manipulating records via the console")
 	
 ### Summary and next steps
 
